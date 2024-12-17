@@ -8,7 +8,7 @@ A collection of small tools designed to streamline and solve daily challenges fo
 
 **Log4OM-Starter** is a Windows Forms application built with .NET Framework 4.8. It is specifically designed for users of the portable version of Log4OM who operate across multiple computers.
 
-![Log4OM-Starter Screenshot](https://s.l2m.io/ee35677f-2b12-403a-a7b8-bfa48023b4b3)
+![Log4OM-Starter Screenshot](https://s.l2m.io/d4bfd898-8616-4267-93bc-e249ceabe177)
 
 #### Key Features
 
