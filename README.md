@@ -56,9 +56,12 @@ This functionality ensures that users can easily switch between multiple compute
 ## Usage
 
 1. Open **Log4OM-Starter**.
-2. Select the location of your synchronized backup folder.
-3. Click the "Load Latest Configuration" button.
-4. Log4OM Portable will start with the most recent configuration and backup files.
+2. Select the location of your Log4OM Portable version.
+3. Select the location of your synchronized backup folder.
+4. Select the location of your sqlLite database.
+5. Press the button "On this computer" to run Log4OM without changes.
+6. Press the button "On another computer..." to execute the changes and sync it before run Log4OM.
+7. Log4OM Portable will start with the most recent configuration and backup files.
 
 ## Contributing
 
