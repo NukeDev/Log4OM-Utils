@@ -12,6 +12,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Reflection;
+using AutoUpdaterDotNET;
+using System.Threading;
 
 namespace Log4OM_Starter
 {
@@ -279,14 +281,17 @@ namespace Log4OM_Starter
             }
         }
 
-        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void checkForUpdatesToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            AutoUpdater.Synchronous = true;
+            AutoUpdater.ReportErrors = true;
 
+            var currentDirectory = new DirectoryInfo(Application.StartupPath);
+            if (currentDirectory.Parent != null)
+            {
+                AutoUpdater.InstallationPath = currentDirectory.Parent.FullName;
+            }
+            AutoUpdater.Start("https://raw.githubusercontent.com/NukeDev/Log4OM-Utils/refs/heads/main/Log4OM-Starter/Updates.xml");
         }
 
         public static bool IsProcessRunning(string processName = "L4ONG")
