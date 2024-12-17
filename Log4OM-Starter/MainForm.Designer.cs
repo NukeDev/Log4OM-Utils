@@ -94,16 +94,16 @@
             this.label3.ForeColor = System.Drawing.Color.Red;
             this.label3.Location = new System.Drawing.Point(8, 11);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(535, 13);
+            this.label3.Size = new System.Drawing.Size(541, 26);
             this.label3.TabIndex = 2;
-            this.label3.Text = "WARNING: This tool works only with Log4OM PORTABLE version. Ensure this before co" +
-    "ntinue.";
+            this.label3.Text = "WARNING: This tool works exclusively with the Log4OM Portable version. Please ens" +
+    "ure you \r\nare using the correct version before proceeding.\r\n";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(2, 37);
+            this.label4.Location = new System.Drawing.Point(13, 39);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 13);
             this.label4.TabIndex = 3;
@@ -113,7 +113,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(3, 76);
+            this.label5.Location = new System.Drawing.Point(14, 78);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(79, 13);
             this.label5.TabIndex = 4;
@@ -122,7 +122,7 @@
             // log4OM_Path
             // 
             this.log4OM_Path.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.log4OM_Path.Location = new System.Drawing.Point(98, 33);
+            this.log4OM_Path.Location = new System.Drawing.Point(109, 35);
             this.log4OM_Path.Name = "log4OM_Path";
             this.log4OM_Path.Size = new System.Drawing.Size(408, 20);
             this.log4OM_Path.TabIndex = 5;
@@ -131,7 +131,7 @@
             // BackupPath
             // 
             this.BackupPath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.BackupPath.Location = new System.Drawing.Point(98, 72);
+            this.BackupPath.Location = new System.Drawing.Point(109, 74);
             this.BackupPath.Name = "BackupPath";
             this.BackupPath.Size = new System.Drawing.Size(408, 20);
             this.BackupPath.TabIndex = 6;
@@ -141,7 +141,7 @@
             // 
             this.Log4OM_PathButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Log4OM_PathButton.Font = new System.Drawing.Font("Microsoft Yi Baiti", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Log4OM_PathButton.Location = new System.Drawing.Point(512, 33);
+            this.Log4OM_PathButton.Location = new System.Drawing.Point(523, 35);
             this.Log4OM_PathButton.Name = "Log4OM_PathButton";
             this.Log4OM_PathButton.Size = new System.Drawing.Size(24, 20);
             this.Log4OM_PathButton.TabIndex = 7;
@@ -153,7 +153,7 @@
             // 
             this.Backup_PathButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Backup_PathButton.Font = new System.Drawing.Font("Microsoft Yi Baiti", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Backup_PathButton.Location = new System.Drawing.Point(512, 72);
+            this.Backup_PathButton.Location = new System.Drawing.Point(523, 74);
             this.Backup_PathButton.Name = "Backup_PathButton";
             this.Backup_PathButton.Size = new System.Drawing.Size(24, 20);
             this.Backup_PathButton.TabIndex = 8;
@@ -166,20 +166,20 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label6.Location = new System.Drawing.Point(141, 182);
+            this.label6.Location = new System.Drawing.Point(172, 184);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(259, 15);
+            this.label6.Size = new System.Drawing.Size(217, 15);
             this.label6.TabIndex = 9;
-            this.label6.Text = "Where did you used Log4OM last time?";
+            this.label6.Text = "Where did you last use Log4OM?";
             // 
             // OnThisPc
             // 
             this.OnThisPc.BackColor = System.Drawing.Color.Bisque;
             this.OnThisPc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.OnThisPc.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OnThisPc.Location = new System.Drawing.Point(5, 208);
+            this.OnThisPc.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.OnThisPc.Location = new System.Drawing.Point(5, 210);
             this.OnThisPc.Name = "OnThisPc";
-            this.OnThisPc.Size = new System.Drawing.Size(193, 62);
+            this.OnThisPc.Size = new System.Drawing.Size(236, 62);
             this.OnThisPc.TabIndex = 10;
             this.OnThisPc.Text = "On this Computer";
             this.OnThisPc.UseVisualStyleBackColor = false;
@@ -190,11 +190,12 @@
             this.OnAnotherPC.BackColor = System.Drawing.Color.MistyRose;
             this.OnAnotherPC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OnAnotherPC.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OnAnotherPC.Location = new System.Drawing.Point(343, 208);
+            this.OnAnotherPC.Location = new System.Drawing.Point(312, 210);
             this.OnAnotherPC.Name = "OnAnotherPC";
-            this.OnAnotherPC.Size = new System.Drawing.Size(193, 62);
+            this.OnAnotherPC.Size = new System.Drawing.Size(236, 62);
             this.OnAnotherPC.TabIndex = 11;
-            this.OnAnotherPC.Text = "On another Computer \r\n(or is the first run on this)\r\n(or i don\'t remember)";
+            this.OnAnotherPC.Text = "On another Computer \r\n(or is it the first run on this one)\r\n(or i don\'t remember)" +
+    "";
             this.OnAnotherPC.UseVisualStyleBackColor = false;
             this.OnAnotherPC.Click += new System.EventHandler(this.OnAnotherPC_Click);
             // 
@@ -203,7 +204,7 @@
             this.checkSqlLitePath.AutoSize = true;
             this.checkSqlLitePath.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkSqlLitePath.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkSqlLitePath.Location = new System.Drawing.Point(5, 111);
+            this.checkSqlLitePath.Location = new System.Drawing.Point(16, 113);
             this.checkSqlLitePath.Name = "checkSqlLitePath";
             this.checkSqlLitePath.Size = new System.Drawing.Size(365, 17);
             this.checkSqlLitePath.TabIndex = 12;
@@ -215,7 +216,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(2, 144);
+            this.label7.Location = new System.Drawing.Point(13, 146);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(85, 13);
             this.label7.TabIndex = 13;
@@ -225,7 +226,7 @@
             // 
             this.sqlLitePathButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.sqlLitePathButton.Font = new System.Drawing.Font("Microsoft Yi Baiti", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.sqlLitePathButton.Location = new System.Drawing.Point(512, 140);
+            this.sqlLitePathButton.Location = new System.Drawing.Point(523, 142);
             this.sqlLitePathButton.Name = "sqlLitePathButton";
             this.sqlLitePathButton.Size = new System.Drawing.Size(24, 20);
             this.sqlLitePathButton.TabIndex = 15;
@@ -236,7 +237,7 @@
             // sqlLitePath
             // 
             this.sqlLitePath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.sqlLitePath.Location = new System.Drawing.Point(98, 140);
+            this.sqlLitePath.Location = new System.Drawing.Point(109, 142);
             this.sqlLitePath.Name = "sqlLitePath";
             this.sqlLitePath.Size = new System.Drawing.Size(408, 20);
             this.sqlLitePath.TabIndex = 14;
@@ -247,7 +248,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Red;
-            this.label8.Location = new System.Drawing.Point(7, 3);
+            this.label8.Location = new System.Drawing.Point(7, 5);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(271, 13);
             this.label8.TabIndex = 16;
@@ -258,13 +259,13 @@
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(2, 21);
+            this.label9.Location = new System.Drawing.Point(2, 23);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(541, 26);
+            this.label9.Size = new System.Drawing.Size(523, 26);
             this.label9.TabIndex = 17;
-            this.label9.Text = "You only should use it if you are running Log4OM-Portable on multiple PCs and if " +
-    "you are \r\nsyncing the backup folder with some backups softwares (OneDrive, Dropb" +
-    "ox, ProtonDrive...)";
+            this.label9.Text = "You should only use it if you are running Log4OM-Portable on multiple PCs and syn" +
+    "cing \r\nthe backup folder with backup software such as OneDrive, Dropbox, or Prot" +
+    "onDrive.\r\n";
             // 
             // label10
             // 
@@ -275,8 +276,8 @@
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(523, 26);
             this.label10.TabIndex = 18;
-            this.label10.Text = "WARNING: You should not run multiple instances of Log4OM-Portable at the same tim" +
-    "e on \r\nmultiple PCs if you want to sync them correctly";
+            this.label10.Text = "WARNING: Do not run multiple instances of Log4OM-Portable simultaneously on diffe" +
+    "rent \r\nPCs, as this may cause synchronization issues.\r\n";
             // 
             // saveConfigCheck
             // 
@@ -294,10 +295,10 @@
             // 
             this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripStatusLabel1});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 467);
+            this.statusStrip1.Location = new System.Drawing.Point(0, 498);
             this.statusStrip1.Name = "statusStrip1";
             this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.statusStrip1.Size = new System.Drawing.Size(561, 22);
+            this.statusStrip1.Size = new System.Drawing.Size(579, 22);
             this.statusStrip1.TabIndex = 20;
             this.statusStrip1.Text = "statusStrip1";
             // 
@@ -314,27 +315,27 @@
             // 
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label9);
-            this.groupBox1.Location = new System.Drawing.Point(6, 90);
+            this.groupBox1.Location = new System.Drawing.Point(6, 112);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(547, 55);
+            this.groupBox1.Size = new System.Drawing.Size(561, 55);
             this.groupBox1.TabIndex = 21;
             this.groupBox1.TabStop = false;
             // 
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Location = new System.Drawing.Point(8, 145);
+            this.groupBox2.Location = new System.Drawing.Point(6, 169);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(544, 42);
+            this.groupBox2.Size = new System.Drawing.Size(561, 42);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Location = new System.Drawing.Point(5, 60);
+            this.groupBox3.Location = new System.Drawing.Point(5, 66);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(547, 30);
+            this.groupBox3.Size = new System.Drawing.Size(562, 46);
             this.groupBox3.TabIndex = 23;
             this.groupBox3.TabStop = false;
             // 
@@ -353,9 +354,9 @@
             this.groupBox4.Controls.Add(this.log4OM_Path);
             this.groupBox4.Controls.Add(this.label5);
             this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Location = new System.Drawing.Point(10, 188);
+            this.groupBox4.Location = new System.Drawing.Point(6, 210);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(542, 276);
+            this.groupBox4.Size = new System.Drawing.Size(561, 285);
             this.groupBox4.TabIndex = 24;
             this.groupBox4.TabStop = false;
             // 
@@ -366,7 +367,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.menuStrip1.Size = new System.Drawing.Size(561, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(579, 24);
             this.menuStrip1.TabIndex = 25;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -400,7 +401,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(561, 489);
+            this.ClientSize = new System.Drawing.Size(579, 520);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
