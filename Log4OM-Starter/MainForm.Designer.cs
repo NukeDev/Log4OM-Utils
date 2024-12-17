@@ -177,7 +177,7 @@
             this.OnThisPc.BackColor = System.Drawing.Color.Bisque;
             this.OnThisPc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OnThisPc.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OnThisPc.Location = new System.Drawing.Point(5, 210);
+            this.OnThisPc.Location = new System.Drawing.Point(6, 210);
             this.OnThisPc.Name = "OnThisPc";
             this.OnThisPc.Size = new System.Drawing.Size(236, 62);
             this.OnThisPc.TabIndex = 10;
@@ -190,7 +190,7 @@
             this.OnAnotherPC.BackColor = System.Drawing.Color.MistyRose;
             this.OnAnotherPC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OnAnotherPC.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.OnAnotherPC.Location = new System.Drawing.Point(312, 210);
+            this.OnAnotherPC.Location = new System.Drawing.Point(319, 210);
             this.OnAnotherPC.Name = "OnAnotherPC";
             this.OnAnotherPC.Size = new System.Drawing.Size(236, 62);
             this.OnAnotherPC.TabIndex = 11;

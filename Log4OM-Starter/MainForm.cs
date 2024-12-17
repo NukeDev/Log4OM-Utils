@@ -286,11 +286,6 @@ namespace Log4OM_Starter
             AutoUpdater.Synchronous = true;
             AutoUpdater.ReportErrors = true;
 
-            var currentDirectory = new DirectoryInfo(Application.StartupPath);
-            if (currentDirectory.Parent != null)
-            {
-                AutoUpdater.InstallationPath = currentDirectory.Parent.FullName;
-            }
             AutoUpdater.Start("https://raw.githubusercontent.com/NukeDev/Log4OM-Utils/refs/heads/main/Log4OM-Starter/Updates.xml");
         }
 
