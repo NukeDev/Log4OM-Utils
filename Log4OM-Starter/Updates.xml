@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <item>
-  <version>2.0.0.0</version>
-  <url>https://rbsoft.org/downloads/AutoUpdaterTest.zip</url>
-  <changelog>https://github.com/ravibpatel/AutoUpdater.NET/releases</changelog>
+  <version>1.0.1.0</version>
+  <url>https://github.com/NukeDev/Log4OM-Utils/releases/download/v.1.0.1/Log4OM-Starter.zip</url>
+  <changelog>https://github.com/NukeDev/Log4OM-Utils/releases/tag/v.1.0.1</changelog>
   <mandatory>false</mandatory>
 </item>
