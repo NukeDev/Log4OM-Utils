@@ -121,6 +121,7 @@
             // 
             // log4OM_Path
             // 
+            this.log4OM_Path.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.log4OM_Path.Location = new System.Drawing.Point(98, 33);
             this.log4OM_Path.Name = "log4OM_Path";
             this.log4OM_Path.Size = new System.Drawing.Size(408, 20);
@@ -129,6 +130,7 @@
             // 
             // BackupPath
             // 
+            this.BackupPath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.BackupPath.Location = new System.Drawing.Point(98, 72);
             this.BackupPath.Name = "BackupPath";
             this.BackupPath.Size = new System.Drawing.Size(408, 20);
@@ -137,6 +139,8 @@
             // 
             // Log4OM_PathButton
             // 
+            this.Log4OM_PathButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Log4OM_PathButton.Font = new System.Drawing.Font("Microsoft Yi Baiti", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Log4OM_PathButton.Location = new System.Drawing.Point(512, 33);
             this.Log4OM_PathButton.Name = "Log4OM_PathButton";
             this.Log4OM_PathButton.Size = new System.Drawing.Size(24, 20);
@@ -147,6 +151,8 @@
             // 
             // Backup_PathButton
             // 
+            this.Backup_PathButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Backup_PathButton.Font = new System.Drawing.Font("Microsoft Yi Baiti", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Backup_PathButton.Location = new System.Drawing.Point(512, 72);
             this.Backup_PathButton.Name = "Backup_PathButton";
             this.Backup_PathButton.Size = new System.Drawing.Size(24, 20);
@@ -168,7 +174,8 @@
             // 
             // OnThisPc
             // 
-            this.OnThisPc.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.OnThisPc.BackColor = System.Drawing.Color.Bisque;
+            this.OnThisPc.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OnThisPc.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OnThisPc.Location = new System.Drawing.Point(5, 208);
             this.OnThisPc.Name = "OnThisPc";
@@ -180,7 +187,8 @@
             // 
             // OnAnotherPC
             // 
-            this.OnAnotherPC.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.OnAnotherPC.BackColor = System.Drawing.Color.MistyRose;
+            this.OnAnotherPC.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.OnAnotherPC.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.OnAnotherPC.Location = new System.Drawing.Point(343, 208);
             this.OnAnotherPC.Name = "OnAnotherPC";
@@ -193,10 +201,11 @@
             // checkSqlLitePath
             // 
             this.checkSqlLitePath.AutoSize = true;
+            this.checkSqlLitePath.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkSqlLitePath.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkSqlLitePath.Location = new System.Drawing.Point(5, 111);
             this.checkSqlLitePath.Name = "checkSqlLitePath";
-            this.checkSqlLitePath.Size = new System.Drawing.Size(368, 17);
+            this.checkSqlLitePath.Size = new System.Drawing.Size(365, 17);
             this.checkSqlLitePath.TabIndex = 12;
             this.checkSqlLitePath.Text = "The SqlLite database Path is the same on all my computers";
             this.checkSqlLitePath.UseVisualStyleBackColor = true;
@@ -214,6 +223,8 @@
             // 
             // sqlLitePathButton
             // 
+            this.sqlLitePathButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sqlLitePathButton.Font = new System.Drawing.Font("Microsoft Yi Baiti", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.sqlLitePathButton.Location = new System.Drawing.Point(512, 140);
             this.sqlLitePathButton.Name = "sqlLitePathButton";
             this.sqlLitePathButton.Size = new System.Drawing.Size(24, 20);
@@ -224,6 +235,7 @@
             // 
             // sqlLitePath
             // 
+            this.sqlLitePath.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.sqlLitePath.Location = new System.Drawing.Point(98, 140);
             this.sqlLitePath.Name = "sqlLitePath";
             this.sqlLitePath.Size = new System.Drawing.Size(408, 20);
@@ -269,10 +281,11 @@
             // saveConfigCheck
             // 
             this.saveConfigCheck.AutoSize = true;
+            this.saveConfigCheck.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.saveConfigCheck.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.saveConfigCheck.Location = new System.Drawing.Point(454, 37);
             this.saveConfigCheck.Name = "saveConfigCheck";
-            this.saveConfigCheck.Size = new System.Drawing.Size(92, 17);
+            this.saveConfigCheck.Size = new System.Drawing.Size(89, 17);
             this.saveConfigCheck.TabIndex = 19;
             this.saveConfigCheck.Text = "Save Config";
             this.saveConfigCheck.UseVisualStyleBackColor = true;
@@ -283,6 +296,7 @@
             this.toolStripStatusLabel1});
             this.statusStrip1.Location = new System.Drawing.Point(0, 467);
             this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.statusStrip1.Size = new System.Drawing.Size(561, 22);
             this.statusStrip1.TabIndex = 20;
             this.statusStrip1.Text = "statusStrip1";
@@ -351,6 +365,7 @@
             this.aboutToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
             this.menuStrip1.Size = new System.Drawing.Size(561, 24);
             this.menuStrip1.TabIndex = 25;
             this.menuStrip1.Text = "menuStrip1";
@@ -374,7 +389,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Log4OM_Starter.Properties.Resources.favicon;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 25);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 24);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(40, 40);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
